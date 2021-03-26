@@ -20,8 +20,8 @@ class LockItUp(commands.Cog):
         default_guild = {
             "channels": [],
             "roles": [],
-            "lockdown_message": None,
-            "unlockdown_message": None,
+            "lockdown_message": "This server has been locked! Please come back later.",
+            "unlockdown_message": "This server has been unlocked! Welcome back.",
             "locked": False,
             "vc_channels": [],
             "music_channels": [],
